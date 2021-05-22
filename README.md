@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @srujansp
+- 👀 I’m interested in coding in java
+- 🌱 I’m currently learning java
+- 📫 How to reach me ,just mail me srujansp1@gmail.com
