@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @srujansp
-- 👀 I’m interested in coding in java
-- 🌱 I’m currently learning java
+- 👀 I’m interested in web as well as android development.
+- 🌱 I’m currently learning javascript.
 - 📫 How to reach me ,just mail me srujansp1@gmail.com
