@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="icon" href="/images/download.png">
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<style>
+    /*css reset  */
+    body {
+        background-repeat: no-repeat;
+        background: url('/images/834264.jpg');
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+  
+
+    .left {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+
+    .left img {
+        /* border: 2px solid rgb(238, 238, 238); */
+        width: 60px;
+
+    }
+
+    .left div {
+        text-align: center;
+        padding: 20px;
+        margin-top: 3px;
+        line-height: 5px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 1000px;
+        margin: 2px auto;
+        padding-left: 20px;
+        padding-top: 22PX;
+
+
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 26px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .navbar {
+       
+        display: inline-block;
+        padding-left: 100px;
+        text-align: center;
+        position: fixed;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+        padding-left: 40px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+        text-shadow: 50px solid gainsboro;
+        padding: 35px 20px;
+    }
+
+    .right {
+        /* border: 2px solid blue; */
+        padding: 5px;
+        margin: 5px;
+
+
+    }
+
+    .btn {
+        /* border: 2px solid blue; */
+        margin: 1px 6px;
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 1px 5px;
+        text-size-adjust: 7px;
+        text-decoration: wavy;
+        border-radius: 10px;
+        border-style: inherit;
+        font-family: 'Fredoka One', cursive;
+        font-size: 12px;
+        cursor: pointer;
+        border-collapse: separate;
+    }
+
+    .btn:hover {
+        color: rgb(255, 0, 0);
+        border-collapse: collapse;
+        border-bottom: 100px;
+        border-color: rgb(8, 12, 12);
+        background-color: rgb(60, 62, 63);
+        border-bottom-style: hidden;
+
+    }
+
+    .container {
+        /* border: 2px solid white;  */
+        padding: 15px;
+        margin: 90px;
+        margin-bottom: 10px;
+        margin-top: 180px;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+
+        padding: 2px;
+        margin-bottom: 55px;
+        word-spacing: 2px;
+    }
+
+    .container input {
+        
+        font-family: 'Fredoka One', cursive;
+        margin: 20px auto;
+        padding: 5px;
+        border-width: 3px;
+        width: 300px;
+        border-radius: 15px;
+        background-color: rgb(187, 185, 185);
+        text-align: center;
+        display: block;
+        font-size: large;
+       
+
+    }
+
+    .container button {
+        border: 2px solid gray;
+        
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 200px;
+        display: block;
+        align-self: center;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <div>
+                <img src="/images/download.png" alt="">
+                <div>silver gym</div>
+
+            </div>
+
+        </div>
+        <!-- mid for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="# " class="active">HOME</a></li>
+                <li><a href="# ">ABOUT US</a></li>
+                <li><a href="# ">FITNESS CALCULATOR</a></li>
+                <li><a href="# ">CONTACT US</a></li>
+            </ul>
+
+        </div>
+        <!-- right for contacts -->
+        <div class="right">
+            <form action="noaction.php">
+                <button class="btn">CALL US</button>
+                <button class="btn">EMAIL US</button>
+            </form>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join  The  Best  Gym  In  City</h1>
+        <form action="noaction.php">
+
+            <div class="form group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
